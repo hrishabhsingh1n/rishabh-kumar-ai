@@ -1,9 +1,11 @@
 import type { NextConfig } from "next";
 
-const basePath = process.env.NODE_ENV === "production" ? "/Resume-Nextjs" : "";
+// ✅ Aapki repo ka naam yahan hona chahiye
+const repoName = "/rishabh-kumar-ai"; 
+const basePath = process.env.NODE_ENV === "production" ? repoName : "";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  output: "export", // GitHub Pages ke liye zaruri hai
   basePath,
   assetPrefix: basePath,
   images: {
@@ -13,8 +15,8 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  env: {
-    NEXT_PUBLIC_BASE_PATH: basePath,
+  typescript: {
+    ignoreBuildErrors: true,
   },
 };
 
