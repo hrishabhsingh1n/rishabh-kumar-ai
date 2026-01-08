@@ -1,0 +1,66 @@
+{
+  "workData": [
+    {
+      "image": "/images/work/ibm1.png",
+      "title": "Prompt Engineering for Everyone",
+      "issuedby": "IBM Developer",
+      "link": "/pdf/IBM.pdf"
+    },
+    {
+      "image": "/images/work/Google1.png",
+      "title": "Introduction to Large Language Models",
+      "issuedby": "Google Cloud",
+      "link": "https://www.skills.google/public_profiles/23dc49ef-fe5a-497f-b68d-98daa33287a3/badges/11794777"
+    },
+     {
+      "image": "/images/work/Google2.png",
+      "title": "Introduction to Responsible AI",
+      "issuedby": "Google Cloud",
+      "link": "https://www.skills.google/public_profiles/23dc49ef-fe5a-497f-b68d-98daa33287a3/badges/11794530"
+    },
+    {
+      "image": "/images/work/Google3.png",
+      "title": "Introduction to Generative AI",
+      "issuedby": "Google Cloud",
+      "link": "https://www.skills.google/public_profiles/23dc49ef-fe5a-497f-b68d-98daa33287a3/badges/11794586"
+    },
+    {
+      "image": "/images/work/udemy1.png",
+      "title": "Learn Core JAVA Programming - Beginner to Master",
+      "issuedby": "Udemy",
+      "link": "https://www.udemy.com/certificate/UC-a46e5321-3b52-4434-be23-dc3aa0f3d5e9/"
+    },
+    {
+      "image": "/images/work/udemy2.png",
+      "title": "The Complete Networking Fundamentals Course. Your CCNA start",
+      "issuedby": "Udemy",
+      "link": "https://www.udemy.com/certificate/UC-dc8726b2-14bc-4322-a323-df0ac4e1f0dd/"
+    },
+    {
+      "image": "/images/work/udemy3.png",
+      "title": "Beginning C++ Programming - From - Beginner to Beyond",
+      "issuedby": "Udemy",
+      "link": "https://www.udemy.com/certificate/UC-3ac0a821-0694-44fa-8d14-12b989c02598/"
+    },
+    {
+      "image": "/images/work/aws1.png",
+      "title": "AWS Academy Graduate - AWS Academy Cloud Foundations",
+      "issuedby": "Amazon Web Services Training and Certification",
+      "link": "https://www.credly.com/badges/33fdb3ba-3f4b-4796-a1da-bea9536d3243/print"
+    },
+    {
+      "image": "/images/work/coursera1.png",
+      "title": "HTML, CSS, and Javascript for Web Developers",
+      "issuedby": "Coursera",
+      "link": "http://coursera.org/verify/93A6P7DLEHHD"
+    },
+    {
+      "image": "/images/work/NDLI2.png",
+      "title": "Server less Architecture on Cloud",
+      "issuedby": "NDLI Club of JIS COLLEGE OF ENGINEERING ",
+      "link": "/pdf/ndli2.pdf"
+    }
+     
+    
+  ]
+}
