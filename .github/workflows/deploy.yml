@@ -1,5 +1,4 @@
-# .github/workflows/nextjs.yml
-name: Deploy Next.js site to Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -20,16 +19,32 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 10 # Aap pnpm v10 use kar rahe hain
+          version: 10
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
-          cache: 'pnpm' # ✅ Yeh pnpm dhoondega, npm nahi
+          node-version: "20"
+          cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile 
 
       - name: Build with Next.js
         run: pnpm build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
