@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 // ✅ Aapki repo ka naam yahan hona chahiye
-const repoName = "/rishabh-kumar-ai"; 
+const repoName = "/Resume-Nextjs"; 
 const basePath = process.env.NODE_ENV === "production" ? repoName : "";
 
 const nextConfig: NextConfig = {

@@ -1,4 +1,8 @@
-export const nextConfig: NextConfig = {
+/**
+ * @typedef {NextConfig} NewType
+ */
+
+export const nextConfig: NewType = {
     typescript: {
         // !! WARNING !!
         // TypeScript errors ki wajah se build rukne se rokne ke liye
