@@ -1,7 +1,11 @@
 [build]
+  # ✅ Force install taaki lockfile ka error na aaye
   command = "pnpm install --no-frozen-lockfile && pnpm build"
   publish = ".next"
 
 [build.environment]
-  NODE_VERSION = "22.21.1"
+  NODE_VERSION = "20"
   PNPM_FLAGS = "--no-frozen-lockfile"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
