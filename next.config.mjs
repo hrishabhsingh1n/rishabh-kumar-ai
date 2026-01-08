@@ -1,9 +1,4 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  // ✅ Vercel ke liye yahan 'output: export' nahi hona chahiye
-  images: {
-    unoptimized: true,
-  },
-};
+import { nextConfig } from "./nextConfig.mjs";
+
 
 export default nextConfig;
